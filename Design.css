@@ -1,0 +1,940 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+/* ************************ Pour la video du background ****************************** */
+
+video
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    
+}
+
+.marge_left
+{
+    left: 0;
+    height: 100%;
+    width: 8px;
+    position: fixed;
+    background: rgb(255, 255, 255);
+}
+
+.marge_right
+{
+    right:0 ;
+    height: 100%;
+    width: 8px;
+    position: fixed;
+    background: rgb(255, 255, 255);
+}
+
+/* ************************ Pour header ****************************** */
+
+header
+{
+    background: rgba(255, 255, 255, 0.3);
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+.first_head
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    position: fixed;
+    background: rgb(3, 2, 70);
+    height: 11rem;
+}
+
+#ufhb
+{
+    margin-left: 1%;
+    height: 80px;
+    width: 12%;
+    border-radius: 20px;
+    box-shadow: -2px 3px 10px 0px rgb(252, 252, 252);
+}
+
+#ufrmi
+{
+    margin-left: 25%;
+    margin-right: 75px;
+    height: 80px;
+    width: 15%;
+    border-radius: 20px;
+    box-shadow: -2px 3px 10px 0px white;
+}
+
+.first_head form
+{
+    float: right;
+    weight: 1%;
+    width: 12%;
+    font-size: 50%;
+    font-weight: 900;
+    margin-right: 1.7%;
+}
+
+#connecter
+{
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 100%;
+    font-weight: 900;
+    border-radius: 20px;
+    margin-top: 0;
+    border: 6px inset rgb(6, 6, 248);
+}
+
+#connecter:hover
+{
+    background: rgb(25, 0, 255);
+    color: rgb(255, 254, 254);
+}
+
+.menu1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.menu1 li img
+{
+    height: 10%;
+    width: 10%;
+    float: right;
+    padding: 10px 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+#act
+{
+    background: white;
+}
+
+.menu1 li img:hover
+{
+    background: rgb(254, 254, 255);
+    transform: rotate(360deg);
+    transition: 0.6s ease;
+}
+
+/* mon deuxieme header */
+
+.secd_head
+{
+    padding-top: 11rem;
+    
+}
+
+.secd_head h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Alfa Slab One", serif;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    transition:3s ease;
+    color: white;
+}
+
+#trait1
+{
+    height: 5px;
+    width: 30%;
+    margin: -3px auto;
+    background-color: rgb(5, 1, 252);
+    border-radius: 5px;
+}
+
+.secd_head p
+{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.secd_head p span
+{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(3, 2, 70);
+}
+
+.table
+{
+    background: rgb(3, 2, 70);
+    margin-top: 30px;
+}
+
+.table input
+{
+    height: 2rem;
+    width: 30%;
+    border-radius: 30px;
+    margin-left: 35%;
+    font-size: 25px;
+    padding-top: 15px;
+    border: none;
+}
+
+.table img
+{
+    height: 35px;
+    width: 40px;
+    border-radius: 60px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.menu2
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+#Option select
+{
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    font-weight:1000;
+    border-radius:5px ;
+    padding: 5cqw auto;
+    color: white;
+    background: rgb(3, 3, 150);
+}
+
+#Option select option
+{
+    background: white;
+    color: blue;
+    padding: 10px 5px;
+}
+
+.tr
+{
+    height: 5px;
+    width: 105%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.menu2 a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 43px;
+    text-align: center;
+}
+
+.menu2 a:hover
+{
+    background: white;
+    color: blue;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+.filiere
+{
+    visibility:hidden;
+    background: green;
+    padding: 5px 5px;
+    
+}
+
+.filiere label
+{
+    
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.filiere input:hover
+{
+    height: 25px;
+    width: 25px;
+}
+
+/* ************************** le main *********************** */
+
+main
+{
+    background: white; 
+    margin-top: 0;
+    padding-top: 10px;
+    box-shadow: 2px -6px 4px 4px white;
+    padding-bottom: 20px;
+}
+
+#section2
+{
+    border: 1px solid blue;
+    border-radius: 15px;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+#section2 h2
+{
+    font-family:  "Kanit", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 30PX;
+    color: black;
+}
+
+#section2 h3
+{
+    font-family:  "Kanit", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 25PX;
+    color: black;
+    text-align: center;
+}
+
+#section2 ul
+{
+    list-style-type:none;
+}
+
+#section2 ul li span
+{
+    float: right;
+}
+
+#section2 ul li a
+{
+    padding-left:10px ;
+    padding-right:16px ;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom:15px ;
+    color: rgb(112, 77, 255);
+}
+
+#section2 li
+{
+    padding-top:10px ;
+    padding-bottom:16px ;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+}
+
+#section2 ul li a:hover
+{
+    background: rgba(21, 21, 125, 0.796);
+    color: white;
+    border-radius: 15px;
+}
+
+#section2 hr
+{
+    height: 1px;
+    width: 100%;
+    background: blue;
+}
+
+.math
+{
+    margin-bottom: 10px;
+    margin-bottom: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.meca
+{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.info
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+#col
+{
+    background: rgb(231, 231, 231);
+} 
+
+
+/* ************************** le footer *********************** */
+
+footer
+{
+    background: #008000;
+}
+
+h4
+{
+    font-family: "Alfa Slab One", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    background: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1px;
+    margin-bottom:20px ;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.domaine menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.domaine menu h5
+{
+    font-family: "Lobster", sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.domaine ul
+{
+    list-style-type:disc ;
+    color: white;
+}
+
+.lg_pied h3
+{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+}
+
+.lg_pied ul
+{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lg_pied ul img
+{
+    border-radius: 50px;
+}
+
+.pied
+{
+    background: #014f0a;
+    padding-bottom: 80px;
+}
+
+.pied p
+{
+    padding: 10px 10px;
+    font-family: "Lobster", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.pied form
+{
+    display: grid;
+    grid-template-rows: 30% 30% 40%;
+}
+
+.pied form input
+{
+    height: 40px;
+    width: 35%;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+#comment
+{
+    margin-left: 5px;
+    width: 30%;
+    height: 208px;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.pied button
+{
+    height: 60px;
+    width: 12%;
+    margin-left: 35%;
+    padding-top:20px ;
+    font-weight:900 ;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+#sociaux ul
+{
+    display:flex;
+    float: right;
+    list-style-type: none;
+    margin-top: -450px;
+
+}
+
+#sociaux ul li
+{
+    padding: 10px 10px;
+    margin-right: 10px;
+}
+
+#sociaux ul li img:hover
+{
+    background: rgb(254, 254, 255);
+    transform: rotate(360deg);
+    border-radius: 50px;
+    transition: 0.6s ease;
+}
+
+.nous
+{
+    float:right ;
+    margin-top: -400px;
+    display: block;
+
+}
+
+.nous #p_lg
+{
+    border-radius: 30px;
+    height: 40%;
+    width: 40%;
+}
+
+.nous img
+{
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+}
+
+.nous label
+{
+    font-size: 28px;
+}
+
+/* ****************************** Tout ce qui concerne la page1 ****************************************** */
+
+#section1
+{
+    border: 1px solid blue;
+    border-radius: 15px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+
+#section1 h2
+{
+    font-family:  "Kanit", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 30PX;
+    color: black;
+}
+
+.para
+{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    background: white;
+    border: 0.5px solid blue;
+}
+
+.para:hover
+{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 9px 0px rgb(191 180 180 / 56%) ;
+    transition: 0.6s ease;
+}
+
+.para h4
+{
+    font-family:  "Kanit", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 20PX;
+    color:black;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.presenter
+{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+aside img
+{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    border-radius: 30px;
+
+}
+
+aside
+{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    background: white;
+    border: 0.5px solid blue;
+}
+
+aside:hover
+{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 9px 0px rgb(191 180 180 / 56%) ;
+    transition: 0.6s ease;
+}
+
+.la_presente
+{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url("media/OIP.jpeg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+     border-radius: 20px;
+     padding: 20px 10px;
+     margin-top: 6rem;
+}
+
+.la_presente h1
+{
+    text-align: center;
+    font-size: 62px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 2000;
+}
+
+.la_presente span , li
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.la_presente h3
+{
+    font-family: "Lobster", sans-serif;
+    font-weight: 2000;
+    font-size: 32px;
+}
+
+
+/* ****************************** Tout ce qui concerne page2 ****************************************** */
+
+.utilisateur
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.utilisateur h3
+{
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    font-weight: 2000;
+}
+
+.profil
+{
+    padding: 10px 10px;
+    margin: 10px 10px; 
+    border: 2px double blue;
+}
+
+.profil img
+{
+    width: 8rem;
+    height: 10rem;
+    margin: 20px 10px;
+}
+
+.information
+{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border: 1px double blue;
+}
+
+.information ul
+{
+    list-style-type: none;
+}
+
+.information li
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 0;
+}
+
+.voir
+{
+    display: grid;
+    grid-template-columns: 100%;
+    
+}
+
+/* ****************************** Tout ce qui concerne connexion ****************************************** */
+
+body
+{
+    background: rgba(21, 21, 125, 0.796);
+}
+
+.connexion
+{
+    top: 20px ;
+    bottom: 20px ;
+    right: 40px;
+    left: 40px;
+    border-radius: 30px;
+    position: fixed;
+    background: url(media/font.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+
+.connexion h1
+{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+.connexion img
+{
+    margin-left: 25%;
+    height: 100px;
+    width: 45%;
+    border-radius: 20px;
+    box-shadow: -2px 3px 10px 0px rgb(252, 252, 252);
+}
+
+.division
+{
+    background: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 30px;
+    height: 30rem;
+}
+
+.division ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    background: blue;
+    border-top-right-radius:30px ;
+    border-top-left-radius:30px ;
+}
+
+.division ul li
+{
+    font-size: 20px;
+    font-weight: 1000;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.division ul li:hover
+{
+    background: white;
+    color: black;
+}
+
+#Elogin
+{
+    background: white;
+    color: black;
+}
+
+.frame
+{
+    position: absolute;
+    background: rgb(228, 228, 228);
+    height: 23rem;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px auto;
+    border-radius: 20px;
+}
+
+.frame h3
+{
+    text-align: center;
+    font-size: 32px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 2000;
+}
+
+.frame label
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin-left: 3px;
+}
+
+.frame input
+{
+    float: right;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 3px;
+    height: 2.5rem;
+    border-radius: 15px;
+}
+
+.frame button
+{
+    width: 60%;
+    height: 40px;
+    margin-left: 25%;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background: blue;
+    border-radius: 20px;
+}
+
+.mon_frame
+{
+    position: absolute;
+    background: rgb(228, 228, 228);
+    height: 25rem;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px auto;
+    border-radius: 20px;
+}
+
+.mon_frame h3
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 2000;
+}
+
+.mon_frame label
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin-left: 3px;
+}
+
+.mon_frame input
+{
+    float: right;
+    width: 95%;
+    margin-bottom: 15px;
+    margin-right: 3px;
+    height: 1.7srem;
+    border-radius: 15px;
+}
+
+.mon_frame button
+{
+    width: 60%;
+    height: 40px;
+    margin-left: 25%;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background: blue;
+    border-radius: 20px;
+}
+
+.mon_frame select
+{
+    float: right;
+    width: 40%;
+    margin-bottom: 10px;
+    margin-right: 3px;
+    height: 1.5rem;
+    border-radius: 15px;
+}
+/* ****************************** Tout ce qui concerne le javascript ****************************************** */
+
